@@ -22,6 +22,7 @@
 ## 💝 Thanks to
 
 -   [Pocco81](https://github.com/Pocco81)
+-   [Cristhyano](https://github.com/crdpa)
 
 &nbsp;
 

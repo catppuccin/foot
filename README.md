@@ -1,7 +1,7 @@
 <h3 align="center">
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/logos/exports/1544x1544_circle.png" width="100" alt="Logo"/><br/>
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
-	Catppuccin for App
+	Catppuccin for Foot
 	<img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/transparent.png" height="30" width="0px"/>
 </h3>
 
@@ -12,24 +12,16 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/sample.png"/>
+  <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/misc/foot.png"/>
 </p>
 
 ## Usage
 
-1. Clone this repository locally
-2. Open the app's settings
-3. Select `import theme` and browse to where you cloned Catppuccin
-4. Select it
-
-## 🙋 FAQ (optional)
-
-- Q: **_"Where can I find the doc?"_**
-  A: Run `:help theme`
+1. Copy the contents of catppuccin.conf into your Foot config file (usually stored at ~/.config/foot/foot.ini) 
 
 ## 💝 Thanks to
 
-- [Human](https://github.com/catppuccin)
+-   [Pocco81](https://github.com/Pocco81)
 
 &nbsp;
 

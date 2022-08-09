@@ -17,12 +17,13 @@
 
 ## Usage
 
-1. Copy the contents of catppuccin.conf into your Foot config file (usually stored at ~/.config/foot/foot.ini) 
+1. Copy the contents of catppuccin.conf colorscheme you want into your Foot config file (usually stored at ~/.config/foot/foot.ini) 
 
 ## 💝 Thanks to
 
 -   [Pocco81](https://github.com/Pocco81)
 -   [crdpa](https://github.com/crdpa)
+-   [Thibault Andreis ](https://github.com/ThibaultAndreis)
 
 &nbsp;
 

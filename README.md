@@ -17,13 +17,27 @@
 
 ## Usage
 
-1. Copy the contents of `catppuccin.conf` colorscheme you want into your Foot config file (usually stored at `~/.config/foot/foot.ini`)
+1. Clone this repository next to your Foot config file (usually stored at `~/.config/foot/foot.ini`), with e.g.
+```
+git clone https://github.com/catppuccin/foot.git ~/.config/foot
+```
+
+2. Import the desired flavour config in your `foot.ini`:
+```ini
+[main]
+# uncomment the flavour you want below:
+include=~/.config/foot/catppuccin-mocha.conf
+# include=~/.config/foot/catppuccin-macchiato.yml
+# include=~/.config/foot/catppuccin-frappe.yml
+# include=~/.config/foot/catppuccin-latte.yml
+```
 
 ## 💝 Thanks to
 
 - [Pocco81](https://github.com/Pocco81)
 - [crdpa](https://github.com/crdpa)
 - [Thibault Andreis](https://github.com/ThibaultAndreis)
+- [xelser](https://github.com/xelser)
 
 &nbsp;
 

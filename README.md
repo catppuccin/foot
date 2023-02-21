@@ -27,9 +27,9 @@ git clone https://github.com/catppuccin/foot.git ~/.config/foot
 [main]
 # uncomment the flavour you want below:
 include=~/.config/foot/catppuccin-mocha.conf
-# include=~/.config/foot/catppuccin-macchiato.yml
-# include=~/.config/foot/catppuccin-frappe.yml
-# include=~/.config/foot/catppuccin-latte.yml
+# include=~/.config/foot/catppuccin-macchiato.conf
+# include=~/.config/foot/catppuccin-frappe.conf
+# include=~/.config/foot/catppuccin-latte.conf
 ```
 
 ## 💝 Thanks to

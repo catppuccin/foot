@@ -36,7 +36,38 @@
 
 ## Usage
 
-1. Copy the contents of `catppuccin.ini` colorscheme you want into your Foot config file (usually stored at `~/.config/foot/foot.ini`)
+1. Copy the theme files next to your `foot.ini` configuration file. (it is usually stored at `~/.config/foot/foot.ini`)
+
+    - Latte
+      ```sh
+      curl -LO --output-dir ~/.config/foot https://github.com/catppuccin/foot/raw/main/catppuccin-latte.ini
+      ```
+
+    - Frappé
+      ```sh
+      curl -LO --output-dir ~/.config/foot https://github.com/catppuccin/foot/raw/main/catppuccin-frappe.ini
+      ```
+
+    - Macchiato
+      ```sh
+      curl -LO --output-dir ~/.config/foot https://github.com/catppuccin/foot/raw/main/catppuccin-macchiato.ini
+      ```
+
+    - Mocha
+      ```sh
+      curl -LO --output-dir ~/.config/foot https://github.com/catppuccin/foot/raw/main/catppuccin-mocha.ini
+      ```
+
+2. Import the desired flavour config in your `foot.ini`
+
+  ```ini
+  # uncomment the flavour you want below:
+
+  include=~/.config/foot/catppuccin-mocha.ini
+  # include=~/.config/foot/catppuccin-macchiato.ini
+  # include=~/.config/foot/catppuccin-frappe.ini
+  # include=~/.config/foot/catppuccin-latte.ini
+  ```
 
 ## 💝 Thanks to
 

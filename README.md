@@ -36,7 +36,9 @@
 
 ## Usage
 
-1. Copy the contents of `catppuccin.ini` colorscheme you want into your Foot config file (usually stored at `~/.config/foot/foot.ini`)
+Copy the contents of your chosen flavor file from the [themes](themes)
+directory into your Foot config file (usually stored at
+`~/.config/foot/foot.ini`)
 
 ## 💝 Thanks to
 

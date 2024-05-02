@@ -9,6 +9,7 @@ whiskers:
 [colors]
 foreground={{palette.text.hex}}
 background={{palette.base.hex}}
+
 regular0={{palette.subtext1.hex}}
 regular1={{palette.red.hex}}
 regular2={{palette.green.hex}}
@@ -17,6 +18,7 @@ regular4={{palette.blue.hex}}
 regular5={{palette.pink.hex}}
 regular6={{palette.teal.hex}}
 regular7={{palette.surface2.hex}}
+
 bright0={{palette.subtext0.hex}}
 bright1={{palette.red.hex}}
 bright2={{palette.green.hex}}
@@ -25,3 +27,12 @@ bright4={{palette.blue.hex}}
 bright5={{palette.pink.hex}}
 bright6={{palette.teal.hex}}
 bright7={{palette.surface1.hex}}
+
+selection-foreground={{palette.text.hex}}
+selection-background={{palette.overlay2 | mix(color=palette.base, amount=0.3) | get(key='hex')}}
+
+search-box-no-match={{palette.crust.hex}} {{palette.red.hex}}
+search-box-match={{palette.text.hex}} {{palette.surface0.hex}}
+
+jump-labels={{palette.crust.hex}} {{palette.peach.hex}}
+urls={{palette.blue.hex}}

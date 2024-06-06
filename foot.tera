@@ -1,38 +1,47 @@
 ---
 whiskers:
-  version: 2.0.0
+  version: 2.3.0
   matrix:
     - flavor
   filename: "themes/catppuccin-{{flavor.identifier}}.ini"
 ---
-{%- set palette = flavor.colors -%}
 [colors]
-foreground={{palette.text.hex}}
-background={{palette.base.hex}}
+{#
+  0 = black
+  1 = red
+  2 = green
+  3 = yellow
+  4 = blue
+  5 = magenta
+  6 = cyan
+  7 = white
+-#}
+foreground={{text.hex}}
+background={{base.hex}}
 
-regular0={{palette.subtext1.hex}}
-regular1={{palette.red.hex}}
-regular2={{palette.green.hex}}
-regular3={{palette.yellow.hex}}
-regular4={{palette.blue.hex}}
-regular5={{palette.pink.hex}}
-regular6={{palette.teal.hex}}
-regular7={{palette.surface2.hex}}
+regular0={% if flavor.dark %}{{ surface1.hex }}{% else %}{{ subtext1.hex }}{% endif %}
+regular1={{red.hex}}
+regular2={{green.hex}}
+regular3={{yellow.hex}}
+regular4={{blue.hex}}
+regular5={{pink.hex}}
+regular6={{teal.hex}}
+regular7={% if flavor.dark %}{{ subtext1.hex }}{% else %}{{ surface2.hex }}{% endif %}
 
-bright0={{palette.subtext0.hex}}
-bright1={{palette.red.hex}}
-bright2={{palette.green.hex}}
-bright3={{palette.yellow.hex}}
-bright4={{palette.blue.hex}}
-bright5={{palette.pink.hex}}
-bright6={{palette.teal.hex}}
-bright7={{palette.surface1.hex}}
+bright0={% if flavor.dark %}{{ surface2.hex }}{% else %}{{ subtext0.hex }}{% endif %}
+bright1={{red.hex}}
+bright2={{green.hex}}
+bright3={{yellow.hex}}
+bright4={{blue.hex}}
+bright5={{pink.hex}}
+bright6={{teal.hex}}
+bright7={% if flavor.dark %}{{ subtext0.hex }}{% else %}{{ surface1.hex }}{% endif %}
 
-selection-foreground={{palette.text.hex}}
-selection-background={{palette.overlay2 | mix(color=palette.base, amount=0.3) | get(key='hex')}}
+selection-foreground={{text.hex}}
+selection-background={{overlay2 | mix(color=base, amount=0.3) | get(key='hex')}}
 
-search-box-no-match={{palette.crust.hex}} {{palette.red.hex}}
-search-box-match={{palette.text.hex}} {{palette.surface0.hex}}
+search-box-no-match={{crust.hex}} {{red.hex}}
+search-box-match={{text.hex}} {{surface0.hex}}
 
-jump-labels={{palette.crust.hex}} {{palette.peach.hex}}
-urls={{palette.blue.hex}}
+jump-labels={{crust.hex}} {{peach.hex}}
+urls={{blue.hex}}

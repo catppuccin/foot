@@ -5,6 +5,9 @@ whiskers:
     - flavor
   filename: "themes/catppuccin-{{flavor.identifier}}.ini"
 ---
+[cursor]
+color={{base.hex}} {{rosewater.hex}}
+
 [colors]
 {#
   0 = black
@@ -36,6 +39,9 @@ bright4={{blue.hex}}
 bright5={{pink.hex}}
 bright6={{teal.hex}}
 bright7={% if flavor.dark %}{{ subtext0.hex }}{% else %}{{ surface1.hex }}{% endif %}
+
+16={{peach.hex}}
+17={{rosewater.hex}}
 
 selection-foreground={{text.hex}}
 selection-background={{overlay2 | mix(color=base, amount=0.3) | get(key='hex')}}

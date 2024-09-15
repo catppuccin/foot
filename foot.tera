@@ -6,7 +6,7 @@ whiskers:
   filename: "themes/catppuccin-{{flavor.identifier}}.ini"
 ---
 [cursor]
-color={{base.hex}} {{rosewater.hex}}
+color={% if flavor.dark %}{{ crust.hex }}{% else %}{{ base.hex }}{% endif %} {{rosewater.hex}}
 
 [colors]
 {#

@@ -5,7 +5,7 @@ whiskers:
     - flavor
   filename: "themes/catppuccin-{{flavor.identifier}}.ini"
 ---
-[colors]
+[colors-dark]
 {#
   0 = black
   1 = red
